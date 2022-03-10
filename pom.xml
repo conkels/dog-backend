@@ -79,7 +79,7 @@
         <configuration>
             <archive>
                 <manifest>
-                    <mainClass>com.example.dog.CkDogPoundAppication</mainClass>
+                    <mainClass>com.example.dog.CkDogPoundApplication</mainClass>
                 </manifest>
             </archive>
             <descriptorRefs>
