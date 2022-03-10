@@ -58,14 +58,7 @@
 			</plugin>
 			<plugin>
 	            <groupId>org.apache.maven.plugins</groupId>
-	            <artifactId>maven-jar-plugin</artifactId>
-	            <configuration>
-	                <archive>
-	                    <manifest>
-	                        <mainClass>com.example.dog.CkDogPoundApplication</mainClass>
-	                    </manifest>
-	                </archive>
-	            </configuration>
+	            <artifactId>>maven-jar-plugin</artifactId>
 	        </plugin>
 	        <plugin>
     <groupId>org.apache.maven.plugins</groupId>
@@ -77,11 +70,6 @@
             <goal>single</goal>
         </goals>
         <configuration>
-            <archive>
-                <manifest>
-                    <mainClass>com.example.dog.CkDogPoundApplication</mainClass>
-                </manifest>
-            </archive>
             <descriptorRefs>
                 <descriptorRef>jar-with-dependencies</descriptorRef>
             </descriptorRefs>
